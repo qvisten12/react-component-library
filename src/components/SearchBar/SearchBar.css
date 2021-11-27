@@ -1,0 +1,38 @@
+.searchBar {
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border: 0;
+  border-radius: 3em;
+  display: inline-block;
+  line-height: 1;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+}
+
+.searchBar--primary {
+  color: white;
+  background-color: #1ea7fd;
+}
+
+.searchBar--primary::placeholder {
+  color: white;
+  opacity: 0.8;
+}
+
+.searchBar--secondary {
+  background-color: transparent;
+}
+
+.searchBar--small {
+  font-size: 12px;
+  padding: 10px 16px;
+}
+
+.searchBar--medium {
+  font-size: 14px;
+  padding: 11px 20px;
+}
+
+.searchBar--large {
+  font-size: 16px;
+  padding: 12px 24px;
+}
